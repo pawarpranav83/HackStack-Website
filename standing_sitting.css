@@ -1,0 +1,600 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .background{
+    background: rgba(0, 0, 0, 0.446) url('bg.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+} */
+
+body {
+    background-color: #ffffff6e;
+
+}
+
+nav::before {
+    /* background: rgba(0, 0, 0, 0.446) url('bg.jpg'); */
+    background: url("https://www.viewsonic.com/library/wp-content/uploads/2019/08/Monitor-Ergonomics-A-Checklist-1-1392x924.jpg");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.picture {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 20px 10px 15px #978e8e;
+    width: 50%;
+    height: 150px;
+}
+
+
+.logo {
+    position: absolute;
+    width: 196px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar {
+    position: absolute;
+    width: 1920px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+    background: #D3FAEE;
+}
+
+#home {
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 764px;
+    top: 39px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#contact {
+    position: absolute;
+    width: 106px;
+    height: 23px;
+    left: 890px;
+    top: 39px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#about {
+    position: absolute;
+    width: 89px;
+    height: 23px;
+    left: 1066px;
+    top: 39px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* .nav_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 450px;
+} */
+
+/* .navbar li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 17px;
+} */
+/* float: left; */
+
+/* .navbar a {
+    text-decoration: none;
+    color: black
+} */
+/* 
+.navbar a:hover {
+    font-size: 25px;
+    color: #696969;
+}
+
+.page{
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    
+}
+
+.sec{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+
+}
+
+.sec1{
+    background-color: #ffefef;
+    margin: 0 5%;
+    
+}
+
+
+.meas_syst{
+    
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    margin: 10%;
+}
+
+.height{
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    list-style: none;
+    text-align: center;
+    margin: 10%;
+}
+
+.submit{
+position: absolute;
+width: 128px;
+height: 50px;
+left: 458px;
+top: 643px;
+list-style: none;
+background: #FFDADA;
+border: 1px solid #000000;
+box-sizing: border-box;
+} */
+
+/* #submit_text {
+    position: absolute;
+width: 63px;
+height: 23px;
+left: 491px;
+top: 656px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px; */
+/* identical to box height */
+
+/* display: flex;
+align-items: center;
+text-align: center;
+} */ 
+
+
+/* .sec2{
+    background-color: transparent;
+    padding: 23px;
+}
+
+.sec2 div{
+    margin: 0 0 23px;
+    font-family: 'Arial';
+    font-size: 20px;
+
+}
+#ms1{
+    width: 100px;
+    font-size: 0.8em;
+}
+
+#ht{
+ height: 20px;
+ font-size: 0.8em;
+}
+
+h3{
+    text-align: center;
+
+} */
+
+
+/* footer {
+    position: relative;
+    bottom: 2px;
+    margin: 50px;
+    background-color: #f8cece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    width: 100%;
+
+} */
+  
+#box_x {
+    position: absolute;
+width: 847px;
+height: 586px;
+left: 98px;
+top: 177px;
+
+background: #FFEFEF;
+}
+
+#Select_measurement {
+    position: absolute;
+width: 348px;
+height: 28px;
+left: 348px;
+top: 229px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#Height {
+    position: absolute;
+width: 189px;
+height: 28px;
+left: 428px;
+top: 448px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#submit {
+    position: absolute;
+width: 128px;
+height: 50px;
+left: 458px;
+top: 643px;
+
+background: #FFDADA;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+#submit_text {
+    position: absolute;
+width: 63px;
+height: 23px;
+left: 491px;
+top: 656px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#m_values {
+    position: absolute;
+    width: 496px;
+    height: 54px;
+    left: 274px;
+    top: 305px;
+    font-size : 20px ;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#placeholder_cm {
+    position: absolute;
+    width: 134px;
+    height: 18px;
+    left: 455px;
+    top: 323px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#placeholder_feet {
+    position: absolute;
+    width: 134px;
+    height: 18px;
+    left: 455px;
+    top: 323px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#m_height{
+    position: absolute;
+    /* width: 244px;
+    height: 28px; */
+    left: 274px;
+    top: 532px;
+    width: 496px;
+    height: 54px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.first #heading{
+    position: absolute;
+    width: 538px;
+    height: 44px;
+    left: 1010px;
+    top: 177px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.first #para{
+ 
+    position: absolute;
+    width: 756px;
+    height: 161px;
+    left: 1010px;
+    top: 224px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #000000;
+}
+
+.second #heading{
+    position: absolute;
+    width: 538px;
+    height: 44px;
+    left: 1010px;
+    top: 386px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    
+}
+
+.second #para{
+    position: absolute;
+    width: 756px;
+    height: 161px;
+    left: 1010px;
+    top: 436px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #000000;
+}
+
+.third #heading{
+    position: absolute;
+    width: 538px;
+    height: 44px;
+    left: 1010px;
+    top: 626px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    
+}
+
+.third #para{
+    position: absolute;
+    width: 756px;
+    height: 161px;
+    left: 1010px;
+    top: 676px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #000000;
+}
+
+#box_4 {
+    position: absolute;
+    width: 1920px;
+    height: 160px;
+    left: 0px;
+    top: 920px;
+    
+    background: #F8CECE;
+}
+
+.second #heading_2 {
+    position: absolute;
+    width: 538px;
+    height: 44px;
+    left: 1024px;
+    top: 230px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.second #para_2 {
+    position: absolute;
+    width: 756px;
+    height: 161px;
+    left: 1024px;
+    top: 280px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #000000;
+}
+
+.third #heading_2 {
+    position: absolute;
+    width: 538px;
+    height: 44px;
+    left: 1024px;
+    top: 485px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.third #para_2 {
+    position: absolute;
+    width: 756px;
+    height: 161px;
+    left: 1024px;
+    top: 535px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #000000;
+}

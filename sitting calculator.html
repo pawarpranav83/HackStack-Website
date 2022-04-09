@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitting Ergoniomics</title>
+    <link rel="stylesheet" href="standing_sitting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html"><img src="ErgoNomics Logo.jfif" alt="" class="logo"></a>
+        <ul class="nav_items">
+            <li><a href="index.html" target="_self" id="home">Home</a></li>
+
+            <!-- <li><a href="sitting_egro_page.html " target="_blank">Sitting Egronomics</a></li>
+            <li><a href="standing_egro_page.html" target="_blank">Standing Egronomics</a></li> -->
+            <li><a href="contact.html" target="_blank" id="contact">Contact Us</a></li>
+            <li><a href="#about us" target="_blank" id="about">About Us</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br><br><br><br>
+    <main class="page">
+
+        <!-- <div class="sec sec1">
+            <div class="meas_syst">
+
+                <li>Select the Measurement System</li>
+                <li><select name="ms" id="ms1">
+                        <option value="cm">cm</option>
+                        <option value="ft">ft</option>
+                        <option value="inch">inch</option>
+                    </select></li>
+            </div>
+            <div class="height">
+                <li>Enter Your Height</li>
+                <li><input type="text" id="ht" placeholder="enter your height"></li>
+            </div>
+            <div class="submit_text"></div>
+                <li><button>submit</button></li>
+
+            </div> -->
+
+            <div id = "box_x"></div>
+            <p id = "Select_measurement">Select the Measurement System</p>
+            <div id="m_sys">
+                <!-- <label for="m_values" >Select the system</label> -->
+                <select name="m_values" id="m_values">
+                    <option value="cm" id = "placeholder_cm">Centimeter</option>
+                    <option value="inches" id = "placeholder_feet">Feet</option>
+                </select>
+            </div>
+            <p id = "Height">Enter Your Height</p>
+            <input type="number" placeholder="E.g. 5.9 feet or 175 cm" id="m_height">
+            <div id = "submit"></div>
+            <button id = "submit_text" >Submit</button>
+            
+                
+            <div class="text">
+                <div class="first">
+                    <h3 id="heading"><strong>Chair Height : -- to --</strong> </h3>
+                    <p id="para">Place feet firmly on the floor, Foot stool protects the back.
+                        Your shoes should be placed firmly on the ground and as parallel as possible to each other. Effect: The
+                        body automatically assumes a healthy posture, the load is distributed evenly on both body halves, as
+                        opposed to the seat with the leg overlapped.</p>
+                </div>
+                <div class="second">
+                    <h3 id="heading">Desk Height : -- to --</h3>
+                    <p id="para">Keyboard and mouse should placed in line with the elbows.
+                        Thus, the upper body is not permanently stressed on one side, which prevents cramps and disharmonies in
+                        the shoulder, back and neck musculature. Use hand supports! These prevent bending of the hands and
+                        gentle joints, tendons and nerves from the hand to the elbow.</p>
+                </div>
+            </div>
+            <div class="third">
+                <h3 id="heading"><strong>Monitor Height : -- to --</strong> </h3>
+                <p id="para">The monitor should be placed below the horizontal visual axis and should be, at least, one arms length away.
+                If the screen is too close or at the wrong height, the body is often tense. This creates tension in the
+                shoulder and neck area.</p>
+            </div>
+        
+    </main>
+
+    <footer>
+        <div id = box_4></div>
+    </footer>
+
+</body>
+
+<script src="firstFile.js"></script>
+
+</html>
