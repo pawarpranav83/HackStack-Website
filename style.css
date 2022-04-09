@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    position: absolute;
+    width: 196px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+}
+
+/* background: url(Ergonomics Logo.jfif); */
+
+/* Rectangle 1 */
+
+.navbar {
+    position: absolute;
+    width: 1920px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+    background: #D3FAEE;
+}
+
+#home {
+    position: absolute;
+    width: 92px;
+    height: 49px;
+    left: 770px;
+    top: 21px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#contact {
+    position: absolute;
+    width: 101px;
+    height: 49px;
+    left: 909px;
+    top: 21px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#about{
+    position: absolute;
+    width: 92px;
+    height: 49px;
+    left: 1078px;
+    top: 21px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.text_small{
+    position: absolute;
+    width: 1091px;
+    height: 184px;
+    left: 98px;
+    top: 266px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+
+#text_big{
+    position: absolute;
+    width: 862px;
+    height: 50px;
+    left: 98px;
+    top: 202px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+#img_1{
+position: absolute;
+width: 688px;
+height: 414px;
+left: 1110px;
+top: -175px;
+}
