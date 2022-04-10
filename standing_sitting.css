@@ -271,14 +271,14 @@ background: #FFEFEF;
 
 #Select_measurement {
     position: absolute;
-width: 348px;
+width: 368px;
 height: 28px;
 left: 348px;
 top: 229px;
 
 font-family: 'Arial';
 font-style: normal;
-font-weight: 400;
+font-weight: 700;
 font-size: 24px;
 line-height: 28px;
 /* identical to box height */
@@ -292,14 +292,14 @@ color: #000000;
 
 #Height {
     position: absolute;
-width: 189px;
+width: 202px;
 height: 28px;
 left: 428px;
 top: 448px;
 
 font-family: 'Arial';
 font-style: normal;
-font-weight: 400;
+font-weight: 700;
 font-size: 24px;
 line-height: 28px;
 /* identical to box height */
@@ -356,6 +356,14 @@ color: #000000;
     box-sizing: border-box;
 }
 
+#m_values option{
+    font-size:20px;
+}
+
+option{
+    padding: 20px 0px;
+}
+
 #placeholder_cm {
     position: absolute;
     width: 134px;
@@ -399,7 +407,7 @@ color: #000000;
     /* width: 244px;
     height: 28px; */
     left: 274px;
-    top: 532px;
+    top: 519px;
     width: 496px;
     height: 54px;
     font-family: 'Arial';
@@ -416,7 +424,7 @@ color: #000000;
     color: #000000;
 }
 
-.first #heading{
+.first #heading_x_1{
     position: absolute;
     width: 538px;
     height: 44px;
@@ -432,7 +440,7 @@ color: #000000;
     color: #000000;
 }
 
-.first #para{
+.first #para_x_1{
  
     position: absolute;
     width: 756px;
@@ -451,7 +459,7 @@ color: #000000;
     color: #000000;
 }
 
-.second #heading{
+.second #heading_x_2{
     position: absolute;
     width: 538px;
     height: 44px;
@@ -468,7 +476,7 @@ color: #000000;
     
 }
 
-.second #para{
+.second #para_x_2 {
     position: absolute;
     width: 756px;
     height: 161px;
@@ -486,7 +494,7 @@ color: #000000;
     color: #000000;
 }
 
-.third #heading{
+.third #heading_x_3{
     position: absolute;
     width: 538px;
     height: 44px;
@@ -503,7 +511,7 @@ color: #000000;
     
 }
 
-.third #para{
+.third #para_x_3{
     position: absolute;
     width: 756px;
     height: 161px;
@@ -521,7 +529,7 @@ color: #000000;
     color: #000000;
 }
 
-#box_4 {
+#footer {
     position: absolute;
     width: 1920px;
     height: 160px;
@@ -531,7 +539,23 @@ color: #000000;
     background: #F8CECE;
 }
 
-.second #heading_2 {
+/* .second #heading_y_2 {
+    position: absolute;
+    width: 538px;
+    height: 44px;
+    left: 1024px;
+    top: 230px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+} */
+
+.second #heading_y_1 {
     position: absolute;
     width: 538px;
     height: 44px;
@@ -565,7 +589,7 @@ color: #000000;
     color: #000000;
 }
 
-.third #heading_2 {
+.third #heading_y_2 {
     position: absolute;
     width: 538px;
     height: 44px;

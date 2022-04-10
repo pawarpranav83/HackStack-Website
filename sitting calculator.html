@@ -48,48 +48,67 @@
 
             </div> -->
 
-            <div id = "box_x"></div>
-            <p id = "Select_measurement">Select the Measurement System</p>
-            <div id="m_sys">
-                <!-- <label for="m_values" >Select the system</label> -->
-                <select name="m_values" id="m_values">
-                    <option value="cm" id = "placeholder_cm">Centimeter</option>
-                    <option value="inches" id = "placeholder_feet">Feet</option>
-                </select>
-            </div>
-            <p id = "Height">Enter Your Height</p>
-            <input type="number" placeholder="E.g. 5.9 feet or 175 cm" id="m_height">
-            <div id = "submit"></div>
-            <button id = "submit_text" >Submit</button>
-            
-                
-            <div class="text">
-                <div class="first">
-                    <h3 id="heading"><strong>Chair Height : -- to --</strong> </h3>
-                    <p id="para">Place feet firmly on the floor, Foot stool protects the back.
-                        Your shoes should be placed firmly on the ground and as parallel as possible to each other. Effect: The
-                        body automatically assumes a healthy posture, the load is distributed evenly on both body halves, as
+        <div id="box_x"></div>
+        <p id="Select_measurement">Select the Measurement System</p>
+        <div id="m_sys">
+            <!-- <label for="m_values" >Select the system</label> -->
+            <select name="m_values" id="m_values">
+                <option onfocus='this.size=100;' value="cm" id="placeholder_cm">Centimeter</option>
+                <option onfocus='this.size=100;' value="inches" id="placeholder_feet">Feet</option>
+            </select>
+        </div>
+        <p id="Height">Enter Your Height</p>
+        <input type="number" placeholder="E.g. 5.9 feet or 175 cm" id="m_height">
+        <div id="submit"></div>
+        <div id="submit_text">Submit</div>
+
+
+        <div class="text">
+            <div class="first">
+                <div id="heading">
+                    <h3 id="heading_x_1"><strong>Chair Height : -- to --</strong> </h3>
+                </div>
+                <div id="para">
+                    <p id="para_x_1">Place feet firmly on the floor, Foot stool protects the back.
+                        Your shoes should be placed firmly on the ground and as parallel as possible to each other.
+                        Effect: The
+                        body automatically assumes a healthy posture, the load is distributed evenly on both body
+                        halves, as
                         opposed to the seat with the leg overlapped.</p>
                 </div>
-                <div class="second">
-                    <h3 id="heading">Desk Height : -- to --</h3>
-                    <p id="para">Keyboard and mouse should placed in line with the elbows.
-                        Thus, the upper body is not permanently stressed on one side, which prevents cramps and disharmonies in
-                        the shoulder, back and neck musculature. Use hand supports! These prevent bending of the hands and
+            </div>
+            <div class="second">
+                <div id="heading">
+                    <h3 id="heading_x_2"><strong>Desk Height : -- to --</strong</h3>
+                </div>
+                <div id="para">
+                    <p id="para_x_2">Keyboard and mouse should placed in line with the elbows.
+                        Thus, the upper body is not permanently stressed on one side, which prevents cramps and
+                        disharmonies in
+                        the shoulder, back and neck musculature. Use hand supports! These prevent bending of the hands
+                        and
                         gentle joints, tendons and nerves from the hand to the elbow.</p>
                 </div>
             </div>
             <div class="third">
-                <h3 id="heading"><strong>Monitor Height : -- to --</strong> </h3>
-                <p id="para">The monitor should be placed below the horizontal visual axis and should be, at least, one arms length away.
-                If the screen is too close or at the wrong height, the body is often tense. This creates tension in the
-                shoulder and neck area.</p>
+                <div id="heading">
+                    <h3 id="heading_x_3"><strong>Monitor Height : -- </strong> </h3>
+                </div>
+                <div id="para">
+                    
+                    <p id="para_x_3">The monitor should be placed below the horizontal visual axis and should be, at least, one
+                        arms length away.
+                        If the screen is too close or at the wrong height, 
+                        the body is often tense. This creates tension in
+                        the shoulder and neck area.</p>
+                </div>
             </div>
-        
+        </div>
+                
     </main>
 
     <footer>
-        <div id = box_4></div>
+        <div id="footer"></div>
     </footer>
 
 </body>

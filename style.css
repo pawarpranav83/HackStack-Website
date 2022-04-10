@@ -2,6 +2,22 @@
     margin: 0;
     padding: 0;
 }
+#submit:hover{
+    cursor: pointer;
+}
+#submit_text_2:hover{
+    background-color: #F8CECE;
+    width: 128px;
+    height: 50px;
+    left: 896px;
+    top: 643px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+}
 
 
 .logo {
@@ -22,7 +38,7 @@
     height: 91px;
     left: 0px;
     top: 0px;
-    background: #D3FAEE;
+    background:#D3FAEE;
 }
 
 #home {
@@ -44,7 +60,12 @@
     text-align: center;
     text-decoration: none;
     color: #000000;
+}
 
+#home:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    /* color: blanchedalmond; */
 }
 
 #contact {
@@ -68,6 +89,10 @@
     color: #000000;
 }
 
+#contact:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
 #about {
     position: absolute;
     width: 89px;
@@ -89,6 +114,10 @@
     color: #000000;
 }
 
+#about:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
 
 .text_small {
     position: absolute;
@@ -712,4 +741,24 @@ color: #000000;
     top: 905px;
     
     background: #F8CECE;
+}
+
+#bckgrd_2 {
+    position: absolute;
+width: 1737px;
+height: 803px;
+left: 88px;
+top: 124px;
+opacity: 80% ;
+background: url(5541_cropped.jpg);
+}
+
+#box_6 {
+    position: absolute;
+width: 1920px;
+height: 200px;
+left: 0px;
+top: 896px;
+
+background: #F8CECE;
 }
