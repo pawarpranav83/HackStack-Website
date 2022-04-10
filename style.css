@@ -1111,7 +1111,7 @@
     width: 517px;
     height: 28px;
     left: 143px;
-    top: 2077px;
+    top: 2053px;
     
     font-family: 'Arial';
     font-style: normal;
@@ -1130,19 +1130,20 @@
 #why_stnd_para {
     position: absolute;
     width: 1519px;
-    height: 90px;
+    height: 96px;
     left: 143px;
-    top: 2148px;
-
+    top: 2126px;
+    
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
-
+    line-height: 160%;
+    /* or 32px */
+    
     display: flex;
     align-items: center;
-
+    
     color: #000000;
 }
 
@@ -1161,8 +1162,8 @@
     position: absolute;
     width: 1199px;
     height: 675px;
-    left: 369px;
-    top: 2323px;
+    left: 361px;
+    top: 2302px;
 }
 
 #submit_2 {
