@@ -1,0 +1,225 @@
+#correct_office_ergo_heading {
+    position: absolute;
+    width: 306px;
+    height: 28px;
+    left: 98px;
+    top: 1006px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#correct_office_ergo_para {
+    position: absolute;
+    width: 1547px;
+    height: 64px;
+    left: 98px;
+    top: 1079px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+
+#base {
+    position: absolute;
+    width: 53px;
+    height: 25px;
+    left: 98px;
+    top: 1262px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#base_para {
+    position: absolute;
+    width: 1548px;
+    height: 32px;
+    left: 98px;
+    top: 1317px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    /* identical to box height, or 32px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#seat {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 98px;
+    top: 1394px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#seat_para {
+    position: absolute;
+    width: 1537px;
+    height: 90px;
+    left: 98px;
+    top: 1449px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#Backrest {
+    position: absolute;
+    width: 94px;
+    height: 25px;
+    left: 98px;
+    top: 1584px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Backrest_para {
+    position: absolute;
+    width: 1571px;
+    height: 90px;
+    left: 98px;
+    top: 1639px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#Armrest {
+    position: absolute;
+    width: 85px;
+    height: 25px;
+    left: 98px;
+    top: 1774px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Armrest_para {
+    position: absolute;
+    width: 1380px;
+    height: 30px;
+    left: 98px;
+    top: 1829px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#wht {
+    position: absolute;
+width: 299px;
+height: 28px;
+left: 98px;
+top: 1189px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#chair_bck {
+    position: absolute;
+width: 1920px;
+height: 1023px;
+left: 0px;
+top: 921px;
+
+background: url(Chair_bckgrd.jpg);
+}

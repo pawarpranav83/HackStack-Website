@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 
 <link rel="stylesheet" href="style.css">
 <img src = "5541_cropped.jpg" id = "bckgrd_2">
+
 <body>
     
     <nav class="navbar">
@@ -19,7 +20,7 @@
             <!-- <li><a href="sitting_egro_page.html " target="_blank">Sitting Egronomics</a></li>
             <li><a href="standing_egro_page.html" target="_blank">Standing Egronomics</a></li> -->
             <li><a href="contact.html" target="_blank" id="contact">Contact Us</a></li>
-            <li><a href="#about us" target="_blank" id="about">About Us</a></li>
+            <li><a href="About Us.html" target="_blank" id="about">About Us</a></li>
         </ul>
     </nav>
     <main>
@@ -28,11 +29,40 @@
         <input type = "text" placeholder = "Email" id = "email">
         <input type = "text" placeholder = "Message / Feedback" id = "msg">
         <div id = "submit_2"></div>
-        <a href = "" id = "submit_text_2">Submit</a>
+            <a  href="" id = "submit_text_2" >Submit</a>
+        
     </main>
     <footer>
-        <div id = box_6></div>
+        <div id = box_contact>
+        <p id="follow">Follow Us</p>
+        <div class="social_logos">
+
+            <a href="https://www.instagram.com/iiitmgwaliorofficial/?hl=en" target="_blank"><img src="icons8-instagram-512.svg"
+                    alt="instagram" class="social_logos_list" id="instagram"></a>
+            <a href="https://www.facebook.com/iiitm/" target="_blank"><img src="icons8-facebook-500.svg" alt="facebook"
+                    class="social_logos_list" id="facebook"></a>
+            <a href="https://twitter.com/iiitm?lang=en" target="_blank"><img src="twitter.png" alt="twitter"
+                    class="social_logos_list" id="twitter"></a>
+            <a href="https://www.youtube.com/channel/UCvD9gx_-9pzQ4XnuFC-BbLg" target="_blank"><img src="icons8-youtube.svg"
+                    alt="youtube" class="social_logos_list" id="youtube"></a>
+        </div>
+    </div>
     </footer>
 </body>
 
+<script>
+    let a = document.getElementById("name")
+    let b = document.getElementById("email")
+    let c = document.getElementById("msg")
+    let d = document.getElementById("submit_2")
+    d.addEventListener("click",function()
+    {
+        a.value = ""
+        b.value = ""
+        c.value = ""
+    })
+
+
+    
+</script>
 </html>
